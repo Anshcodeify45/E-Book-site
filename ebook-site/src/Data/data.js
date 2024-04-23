@@ -88,54 +88,54 @@ export const navLinks =[
   
 
   
-  // export const featuredBooksData =[
-  //     {
-  //         id: 1,
-  //         img: FeaturedBooks1, 
-  //         imgLlink: "*", 
-  //         nameLink:"*",
-  //         name: 'Great travel at desert',        
-  //         writer:'Sanchit Howdy',
-  //         price: '$ 38.00 '      
-  //     },
-  //     {
-  //         id: 2,
-  //         img: FeaturedBooks2,  
-  //         imgLlink: "*", 
-  //         nameLink:"*",
-  //         name: 'Great travel at desert',
-  //         writer:'Sanchit Howdy',
-  //         price: '$ 38.00 ' 
+  export const featuredBooksData =[
+      {
+          id: 1,
+          url: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388508611i/2880.jpg", 
+          imgLlink: "*", 
+          nameLink:"*",
+          name: 'Bleach',        
+          writer:'Tite Kubo',
+          price: '$ 58.00 '      
+      },
+      {
+          id: 2,
+          url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64LcBT9-MWv3_hACE6tAqhCklSxKuCta-tg&s",  
+          imgLlink: "*", 
+          nameLink:"*",
+          name: 'Naruto',
+          writer:' Masashi Kishimoto',
+          price: '$ 48.00 ' 
   
-  //     },
-  //     {
-  //         id: 3,
-  //         img: FeaturedBooks3, 
-  //         imgLlink: "*", 
-  //         nameLink:"*", 
-  //         name: 'Great travel at desert',
-  //         writer:'Sanchit Howdy',
-  //         price: '$ 38.00 '      
-  //     },
-  //     {
-  //         id: 4,
-  //         img: FeaturedBooks4, 
-  //         imgLlink: "*", 
-  //         nameLink:"*", 
-  //         name: 'Great travel at desert',
-  //         writer:'Sanchit Howdy',
-  //         price: '$ 38.00 '      
-  //     },
-  //     {
-  //         id: 5,
-  //         img: FeaturedBooks5, 
-  //         imgLlink: "*", 
-  //         nameLink: "*", 
-  //         name: 'Great travel at desert',
-  //         writer:'Sanchit Howdy',
-  //         price: '$ 38.00 '      
-  //     },
-  // ];
+      },
+      {
+          id: 3,
+          url: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432712438i/13154150.jpg", 
+          imgLlink: "*", 
+          nameLink:"*", 
+          name: ' Attack on Titan',
+          writer:'Hajime Isayama',
+          price: '$ 42.00 '      
+      },
+      {
+          id: 4,
+          url:"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1641582775i/60056600.jpg", 
+          imgLlink: "*", 
+          nameLink:"*", 
+          name: 'Blue Lock',
+          writer:'Muneyuki Kaneshiro',
+          price: '$ 38.00 '      
+      },
+      {
+          id: 5,
+          url:"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1426466596i/25074597.jpg", 
+          imgLlink: "*", 
+          nameLink: "*", 
+          name: 'My Hero Academia',
+          writer:'Kouhei Horikoshi',
+          price: '$ 18.00 '      
+      },
+  ];
   
   
   

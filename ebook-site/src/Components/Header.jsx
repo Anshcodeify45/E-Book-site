@@ -24,7 +24,7 @@ const responsive = {
             height:400px;
             display:flex;
             justify-content: space-evenly;
-            background:#0D3340;
+            background:rgba(0, 0, 0, 0.6);
             color:white;
             
         `
@@ -38,10 +38,14 @@ const responsive = {
 
     const Para = styled(Typography)`
     width: 600px; 
-    margin:30 0 65 0;
+    margin:50 0 65 0;
+    `
+    const Data = styled(Typography)`
+        margin-top:45px;
     `
     const Btn =styled(Button)`
         margin-top:25px;
+        border:2px solid;
     `
 function Header() {
   return (
@@ -51,18 +55,21 @@ function Header() {
     draggable={false}
     showDots={true} 
     autoPlay={true}
-    infinite={true}> 
+    infinite={true}
+    autoPlaySpeed={4000}> 
+
+
     {
         headerBooks.map(data => (
             <Component>
             <Box>
                 <Image src={data.url} alt=""/>
             </Box>
-            <Box>
+            <Data>
                 <Typography variant='h2' style={{marginTop:25}}>{data.title}</Typography>
                 <Para>{data.info}</Para>
                 <Btn>{data.btnLink}</Btn>
-            </Box>              
+            </Data>              
             </Component>
             
         ))

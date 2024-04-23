@@ -12,10 +12,10 @@ function Home() {
   return (
     <Component>
       <Header/>
-      <Futurebooks/>
-      <Futurebooks/>
-      <Futurebooks/>
-      <Futurebooks/>
+      <Futurebooks title="Anime Book"/>
+      <Futurebooks title="Romantic Book"/>
+      <Futurebooks title="Motivation Book"/>
+      <Futurebooks title="Top rated Book"/>
       <p>helloooo</p>
 
     </Component>

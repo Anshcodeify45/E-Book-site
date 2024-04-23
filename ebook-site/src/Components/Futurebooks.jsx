@@ -29,14 +29,15 @@ const Component =styled(Box)`
 const Image = styled('img')({
   width:'auto',
   height:250,
+  cursor:'pointer'
 })
 
 
 
-function Futurebooks() {
+function Futurebooks({title}) {
   return (
     <Component>
-    <Typography variant='h1' style={{textAlign:'center',color:'#dfe8f1',background:'rgba(0, 0, 0, 0.6)'}}>Anime books</Typography>
+    <Typography variant='h2' style={{textAlign:'center',color:'#dfe8f1',background:'rgba(0, 0, 0, 0.6)'}}>{title}</Typography>
     <Carousel  responsive={responsive}
     swipeable={false}
     draggable={false}
@@ -52,9 +53,9 @@ function Futurebooks() {
                   <Image src={data.url} alt="" />
               </Box>
               <Box >
-                <Typography>{data.name}</Typography>
-                <Typography>{data.writer}</Typography>
-                <Typography>{data.price}</Typography>
+                <Typography variant='h5'>{data.name}</Typography>
+                <Typography variant='h6'>{data.writer}</Typography>
+                <Typography variant='p'>{data.price}</Typography>
               </Box>
             </Box>            
           ))

@@ -1,6 +1,5 @@
 import { Box ,Typography ,styled} from '@mui/material'
 import React from 'react'
-import { featuredBooksData } from '../Data/data'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -34,7 +33,7 @@ const Image = styled('img')({
 
 
 
-function Futurebooks({title}) {
+function Futurebooks({  products ,title }) {
   return (
     <Component>
     <Typography variant='h2' style={{textAlign:'center',color:'#dfe8f1',background:'rgba(0, 0, 0, 0.6)'}}>{title}</Typography>
@@ -47,7 +46,7 @@ function Futurebooks({title}) {
     autoPlaySpeed={4000}
     centerMode={true}>
       {
-          featuredBooksData.map(data =>(
+          products.map(data =>(
             <Box style={{textAlign:'center',color:'#dfe8f1'}}>
               <Box>
                   <Image src={data.url} alt="" />

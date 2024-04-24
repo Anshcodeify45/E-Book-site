@@ -88,7 +88,7 @@ export const navLinks =[
   
 
   
-  export const featuredBooksData =[
+  export const Anime =[
       {
           id: 1,
           url: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388508611i/2880.jpg", 
@@ -137,22 +137,90 @@ export const navLinks =[
       },
   ];
   
+  export const featuredBooksData =[
+    {
+        id: 1,
+        url: "https://fourminutebooks.com/wp-content/uploads/2016/06/best-motivational-books-4-194x300.jpg", 
+        imgLlink: "*", 
+        nameLink:"*",
+        name: 'Artemis Fowl',        
+        writer:'Eoin Colfer',
+        price: '$ 58.00 '      
+    },
+    {
+        id: 2,
+        url:"https://fourminutebooks.com/wp-content/uploads/2016/06/best-motivational-books-24-212x300.jpg",  
+        imgLlink: "*", 
+        nameLink:"*",
+        name: 'The dip',
+        writer:' Seth Godin',
+        price: '$ 48.00 ' 
+
+    },
+    {
+        id: 3,
+        url: "https://fourminutebooks.com/wp-content/uploads/2016/06/best-motivational-books-25-192x300.jpg", 
+        imgLlink: "*", 
+        nameLink:"*", 
+        name: '  Sam Walton',
+        writer:' Sam Walton',
+        price: '$ 42.00 '      
+    },
+    {
+        id: 4,
+        url:"https://fourminutebooks.com/wp-content/uploads/2016/06/best-motivational-books-26-197x300.jpg", 
+        imgLlink: "*", 
+        nameLink:"*", 
+        name: '4-Hour Workweek',
+        writer:'Tim Ferriss',
+        price: '$ 38.00 '      
+    },
+    {
+        id: 5,
+        url:"https://fourminutebooks.com/wp-content/uploads/2016/06/best-motivational-books-1.jpg.webp", 
+        imgLlink: "*", 
+        nameLink: "*", 
+        name: 'The Alchemist',
+        writer:'Paulo Coelho',
+        price: '$ 18.00 '      
+    },
+];
   
-  
+
+
   // // Selling Data.......................
   // import sellingBookimage from '../assets/SellingBookImage/sellingBook.png'
   
-  // export const sellingBooksData =[
-  //     {
-  //         id: 1,
-  //         img: sellingBookimage,
-  //         infoTitleTop: 'By Timbur Hood',
-  //         infoTitle: 'Birds gonna be happy',
-  //         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac',
-  //         price: '$ 45.00',
-  //         shopbtnLink: "*",
-  //     }
-  // ];
+  export const sellingBooksData =[
+      {
+          id: 1,
+          url:"https://i.guim.co.uk/img/media/19e81774d363b8047502e64d172ee357973c83bc/0_0_326_499/master/326.jpg?width=140&dpr=2&s=none",
+          infoTitleTop: 'By Helen Dunmore',
+          infoTitle: 'The Siege',
+          desc: 'The Levin family battle against starvation in this novel set during the German siege of Leningrad. Anna digs tank traps and dodges patrols as she scavenges for wood, but the hand of history is hard to escape.',
+          price: '$ 45.00',
+          shopbtnLink: "*",
+      },
+      {
+        id: 2,
+        url:"https://i.guim.co.uk/img/media/94560f671d3027e1ee4449f6cb4c4cf33d63a723/0_0_323_499/master/323.jpg?width=140&dpr=2&s=none",
+        infoTitleTop: 'By M John Harrison',
+        infoTitle: 'Light',
+        desc: 'One of the most underrated prose writers demonstrates the literary firepower of science fiction at its best. Three narrative strands – spanning far-future space opera, contemporary unease and virtual-reality pastiche – are braided together for a breathtaking metaphysical voyage in pursuit of the mystery at the heart of reality.',
+        price: '$ 56.00',
+        shopbtnLink: "*",
+    },
+    {
+        id: 3,
+        url:"https://i.guim.co.uk/img/media/01a20399ae85404d2e1c28a288c1c52e9f5781f4/0_0_191_293/master/191.jpg?width=140&dpr=2&s=none",
+        infoTitleTop: 'By Barbara Demick',
+        infoTitle: 'Nothing to Envy',
+        desc: 'In this existential eco-thriller, a William Blake-obsessed eccentric investigates the murders of men and animals in a remote Polish village. More accessible and focused than Flights, the novel that won Tokarczuk the Man International Booker prize, it is no less profound in its examination of how atavistic male impulses, emboldened by the new rightwing politics of Europe, are endangering people, communities and nature itself.',
+        price: '$ 47.00',
+        shopbtnLink: "*",
+    }
+
+  ];
   
   
   

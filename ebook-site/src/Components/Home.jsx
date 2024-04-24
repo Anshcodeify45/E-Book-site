@@ -2,7 +2,8 @@ import React from 'react'
 import Header from './Header'
 import Futurebooks from './Futurebooks'
 import { Box, styled } from '@mui/material'
-
+import { Anime ,featuredBooksData } from '../Data/data'
+import Popularbook from './Popularbook'
 
 const Component =styled(Box)`
   width:100%;
@@ -12,10 +13,11 @@ function Home() {
   return (
     <Component>
       <Header/>
-      <Futurebooks title="Anime Book"/>
-      <Futurebooks title="Romantic Book"/>
-      <Futurebooks title="Motivation Book"/>
-      <Futurebooks title="Top rated Book"/>
+      <Futurebooks products={Anime} title="Anime Book"/>
+      <Futurebooks products={featuredBooksData}title="Romantic Book"/>
+      <Futurebooks products={Anime} title="Motivation Book"/>
+      <Futurebooks products={Anime} title="Top rated Book"/>
+      <Popularbook/>
       <p>helloooo</p>
 
     </Component>

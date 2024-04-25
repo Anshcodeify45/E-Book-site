@@ -54,7 +54,7 @@ function Navbar() {
         <Tabs to={'/contact'}>Contact</Tabs>
         <Btnbox>
         <Btn variant="contained">Login</Btn>
-        <IconButton color="primary" aria-label="add to shopping cart" >
+        <IconButton color="primary" aria-label="add to shopping cart" to={'/cart'}>
            <AddShoppingCartIcon/>
         </IconButton>
         </Btnbox>

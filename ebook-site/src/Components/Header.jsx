@@ -46,6 +46,7 @@ const responsive = {
     const Btn =styled(Button)`
         margin-top:25px;
         border:2px solid;
+        margin-right:15px;
     `
 function Header() {
   return (
@@ -69,6 +70,7 @@ function Header() {
                 <Typography variant='h2' style={{marginTop:25}}>{data.title}</Typography>
                 <Para>{data.info}</Para>
                 <Btn>{data.btnLink}</Btn>
+                <Btn>Shop now</Btn>
             </Data>              
             </Component>
             

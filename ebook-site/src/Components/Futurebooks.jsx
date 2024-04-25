@@ -1,4 +1,4 @@
-import { Box ,Typography ,styled} from '@mui/material'
+import { Box ,Button,Typography ,styled} from '@mui/material'
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -28,10 +28,13 @@ const Component =styled(Box)`
 const Image = styled('img')({
   width:'auto',
   height:250,
-  cursor:'pointer'
+  cursor:'pointer',
+  marginTop:20
 })
 
-
+const Container = styled(Box)`
+height:420px
+`
 
 function Futurebooks({  products ,title }) {
   return (
@@ -47,7 +50,7 @@ function Futurebooks({  products ,title }) {
     centerMode={true}>
       {
           products.map(data =>(
-            <Box style={{textAlign:'center',color:'#dfe8f1'}}>
+            <Container style={{textAlign:'center',color:'#dfe8f1'}}>
               <Box>
                   <Image src={data.url} alt="" />
               </Box>
@@ -56,7 +59,8 @@ function Futurebooks({  products ,title }) {
                 <Typography variant='h6'>{data.writer}</Typography>
                 <Typography variant='p'>{data.price}</Typography>
               </Box>
-            </Box>            
+              <Button  variant="contained" color="success">Add to Cart</Button>
+            </Container>            
           ))
       }
       </Carousel>
